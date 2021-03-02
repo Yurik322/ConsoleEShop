@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Store.Data/1.0.0": {
+        "dependencies": {
+          "Store.Core": "1.0.0",
+          "Store.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Store.Data.dll": {}
+        }
+      },
+      "Store.Core/1.0.0": {
+        "dependencies": {
+          "Store.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Store.Core.dll": {}
+        }
+      },
+      "Store.Core.Entities/1.0.0": {
+        "runtime": {
+          "Store.Core.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Store.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Store.Core.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
